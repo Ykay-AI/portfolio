@@ -343,3 +343,88 @@ if (cursorDot && cursorOutline) {
     });
 
 }
+
+/* ========================================
+   PARTICLE BACKGROUND
+======================================== */
+
+if (typeof particlesJS !== "undefined") {
+
+    particlesJS("particles-js", {
+
+        particles: {
+
+            number: {
+                value: 60,
+                density: {
+                    enable: true,
+                    value_area: 900
+                }
+            },
+
+            color: {
+                value:getComputedStyle(document.body)
+                .getPropertyValue("--particle-color")
+                .trim()
+            },
+
+            shape: {
+                type: "circle"
+            },
+
+            opacity: {
+                value: 0.18,
+                random: true
+            },
+
+            size: {
+                value: 3,
+                random: true
+            },
+
+            line_linked: {
+
+                enable:true,
+                distance:150,
+                color:"#b0c555",
+                opacity:0.08,
+                width:1
+            },
+
+            move: {
+                enable: true,
+                speed: 0.8,
+                direction: "none",
+                random: true,
+                straight: false,
+                out_mode: "out",
+                bounce: false
+            }
+
+        },
+
+        interactivity: {
+
+            detect_on: "canvas",
+
+            events: {
+
+                onhover: {
+                    enable: false
+                },
+
+                onclick: {
+                    enable: false
+                },
+
+                resize: true
+
+            }
+
+        },
+
+        retina_detect: true
+
+    });
+
+}
