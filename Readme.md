@@ -67,9 +67,9 @@ A responsive personal portfolio showcasing my projects, technical skills, and le
 
 ## 📬 Contact
 
-- **Email:** your-email@example.com
-- **LinkedIn:** _(Add your LinkedIn profile)_
-- **GitHub:** _(Add your GitHub profile)_
+- **Email:** yusifkamara274@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/yusif-kamara-34771b3a1/
+- **GitHub:** https://github.com/Ykay-AI
 
 ---
 
